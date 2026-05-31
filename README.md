@@ -10,9 +10,9 @@ This directory contains sample data files collected by the NeuraDock dry-electro
 | :--- | :--- | :--- | :--- |
 | `example_data_bluetooth.txt` | Bluetooth | Raw `.txt` case data transmitted via Bluetooth. Each line contains 5 sample packets (8 fields per packet: 7 channels + 1 separator). | Example input for Tutorial 1 (Bluetooth offline data reading) |
 | `example_data_usb.txt` | USB | Raw `.txt` case data transmitted via USB. Each line contains 1 sample packet (8 fields: 7 channels + 1 separator). | Example input for Tutorial 2 (USB offline data reading) |
-| `open_closed_eye2.txt` | — | **Eyes-Open/Eyes-Closed Paradigm Data**. 7-channel EEG data recorded while the subject alternated between eyes-open (EO) and eyes-closed (EC) states. | Tutorial 9 (Alpha Blocking / Signal quality assessment) |
-| `rest_20251024160452_2m12s.txt` | — | **Resting-State Paradigm Data**. Continuous EEG recording (~2 min 12 s) while the subject remained relaxed and task-free. | Tutorial 9 (Resting vs. Task state comparison / ERD analysis) |
-| `task_20251024160748_2m33s.txt` | — | **Task-State Paradigm Data**. Continuous EEG recording (~2 min 33 s) during high cognitive-load reading. | Tutorial 9 (Task-state Alpha desynchronization / ERD analysis) |
+| `open_closed_eye2.txt` | Bluetooth | **Eyes-Open/Eyes-Closed Paradigm Data**. 7-channel EEG data recorded while the subject alternated between eyes-open (EO) and eyes-closed (EC) states. | Tutorial 9 (Alpha Blocking / Signal quality assessment) |
+| `rest_20251024160452_2m12s.txt` | Bluetooth | **Resting-State Paradigm Data**. Continuous EEG recording (~2 min 12 s) while the subject remained relaxed and task-free. | Tutorial 9 (Resting vs. Task state comparison / ERD analysis) |
+| `task_20251024160748_2m33s.txt` | Bluetooth | **Task-State Paradigm Data**. Continuous EEG recording (~2 min 33 s) during high cognitive-load reading. | Tutorial 9 (Task-state Alpha desynchronization / ERD analysis) |
 
 ---
 
