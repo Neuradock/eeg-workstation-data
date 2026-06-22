@@ -1,0 +1,19 @@
+cohort,subject,file,condition,paradigm,session,expected_load,relative_path,notes
+cohort_2subj_ljw_xzy,ljw,01_rest.txt,Baseline,Eyes-closed rest,1,baseline,cohort_2subj_ljw_xzy/ljw/01_rest.txt,Use as ljw baseline
+cohort_2subj_ljw_xzy,ljw,02_chat.txt,Task,Chat or phone browsing,1,medium,cohort_2subj_ljw_xzy/ljw/02_chat.txt,Compare only against ljw baseline
+cohort_2subj_ljw_xzy,ljw,03_game.txt,Task,Game,1,high,cohort_2subj_ljw_xzy/ljw/03_game.txt,Compare only against ljw baseline
+cohort_2subj_ljw_xzy,xzy,01_rest_eye_half.txt,Baseline,Rest with mixed eye state,1,baseline,cohort_2subj_ljw_xzy/xzy/01_rest_eye_half.txt,Mixed eye-state caveat; use caution if eye-state markers exist
+cohort_2subj_ljw_xzy,xzy,02_music_eye_half.txt,Task,Music listening with mixed eye state,1,unknown,cohort_2subj_ljw_xzy/xzy/02_music_eye_half.txt,Mixed eye-state caveat
+cohort_2subj_ljw_xzy,xzy,03_game.txt,Task,Game,1,high,cohort_2subj_ljw_xzy/xzy/03_game.txt,Cleaner task file for xzy
+cohort_3subj_rest_task,S01,rest_S01_1.txt,Rest,Rest,1,baseline,cohort_3subj_rest_task/S01/rest_S01_1.txt,Compare with task_S01_1.txt
+cohort_3subj_rest_task,S01,task_S01_1.txt,Task,Visual cognitive task,1,task,cohort_3subj_rest_task/S01/task_S01_1.txt,Compare with rest_S01_1.txt
+cohort_3subj_rest_task,S01,rest_S01_2.txt,Rest,Rest,2,baseline,cohort_3subj_rest_task/S01/rest_S01_2.txt,Compare with task_S01_2.txt
+cohort_3subj_rest_task,S01,task_S01_2.txt,Task,Visual cognitive task,2,task,cohort_3subj_rest_task/S01/task_S01_2.txt,Compare with rest_S01_2.txt
+cohort_3subj_rest_task,S02,rest_S02_1.txt,Rest,Rest,1,baseline,cohort_3subj_rest_task/S02/rest_S02_1.txt,Compare with task_S02_1.txt
+cohort_3subj_rest_task,S02,task_S02_1.txt,Task,Visual cognitive task,1,task,cohort_3subj_rest_task/S02/task_S02_1.txt,Compare with rest_S02_1.txt
+cohort_3subj_rest_task,S02,rest_S02_2.txt,Rest,Rest,2,baseline,cohort_3subj_rest_task/S02/rest_S02_2.txt,Compare with task_S02_2.txt
+cohort_3subj_rest_task,S02,task_S02_2.txt,Task,Visual cognitive task,2,task,cohort_3subj_rest_task/S02/task_S02_2.txt,Compare with rest_S02_2.txt
+cohort_3subj_rest_task,S03,rest_S03_1.txt,Rest,Rest,1,baseline,cohort_3subj_rest_task/S03/rest_S03_1.txt,Compare with task_S03_1.txt
+cohort_3subj_rest_task,S03,task_S03_1.txt,Task,Visual cognitive task,1,task,cohort_3subj_rest_task/S03/task_S03_1.txt,Compare with rest_S03_1.txt
+cohort_3subj_rest_task,S03,rest_S03_2.txt,Rest,Rest,2,baseline,cohort_3subj_rest_task/S03/rest_S03_2.txt,Compare with task_S03_2.txt
+cohort_3subj_rest_task,S03,task_S03_2.txt,Task,Visual cognitive task,2,task,cohort_3subj_rest_task/S03/task_S03_2.txt,Compare with rest_S03_2.txt

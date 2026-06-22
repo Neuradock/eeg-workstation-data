@@ -1,0 +1,88 @@
+[
+  {
+    "cohort": "cohort_2subj_ljw_xzy",
+    "subject": "ljw",
+    "file": "01_rest.txt",
+    "condition": "Baseline",
+    "paradigm": "Eyes-closed rest",
+    "session": 1,
+    "expected_load": "baseline",
+    "relative_path": "cohort_2subj_ljw_xzy/ljw/01_rest.txt",
+    "notes": "Use as ljw baseline"
+  },
+  {
+    "cohort": "cohort_2subj_ljw_xzy",
+    "subject": "ljw",
+    "file": "02_chat.txt",
+    "condition": "Task",
+    "paradigm": "Chat or phone browsing",
+    "session": 1,
+    "expected_load": "medium",
+    "relative_path": "cohort_2subj_ljw_xzy/ljw/02_chat.txt",
+    "notes": "Compare only against ljw baseline"
+  },
+  {
+    "cohort": "cohort_2subj_ljw_xzy",
+    "subject": "ljw",
+    "file": "03_game.txt",
+    "condition": "Task",
+    "paradigm": "Game",
+    "session": 1,
+    "expected_load": "high",
+    "relative_path": "cohort_2subj_ljw_xzy/ljw/03_game.txt",
+    "notes": "Compare only against ljw baseline"
+  },
+  {
+    "cohort": "cohort_2subj_ljw_xzy",
+    "subject": "xzy",
+    "file": "01_rest_eye_half.txt",
+    "condition": "Baseline",
+    "paradigm": "Rest with mixed eye state",
+    "session": 1,
+    "expected_load": "baseline",
+    "relative_path": "cohort_2subj_ljw_xzy/xzy/01_rest_eye_half.txt",
+    "notes": "Mixed eye-state caveat; use caution if eye-state markers exist"
+  },
+  {
+    "cohort": "cohort_2subj_ljw_xzy",
+    "subject": "xzy",
+    "file": "02_music_eye_half.txt",
+    "condition": "Task",
+    "paradigm": "Music listening with mixed eye state",
+    "session": 1,
+    "expected_load": "unknown",
+    "relative_path": "cohort_2subj_ljw_xzy/xzy/02_music_eye_half.txt",
+    "notes": "Mixed eye-state caveat"
+  },
+  {
+    "cohort": "cohort_2subj_ljw_xzy",
+    "subject": "xzy",
+    "file": "03_game.txt",
+    "condition": "Task",
+    "paradigm": "Game",
+    "session": 1,
+    "expected_load": "high",
+    "relative_path": "cohort_2subj_ljw_xzy/xzy/03_game.txt",
+    "notes": "Cleaner task file for xzy"
+  },
+  {
+    "cohort": "cohort_3subj_rest_task",
+    "subjects": ["S01", "S02", "S03"],
+    "sessions": [1, 2],
+    "pairing_rule": "Compare rest and task within the same subject and session.",
+    "files": [
+      "cohort_3subj_rest_task/S01/rest_S01_1.txt",
+      "cohort_3subj_rest_task/S01/task_S01_1.txt",
+      "cohort_3subj_rest_task/S01/rest_S01_2.txt",
+      "cohort_3subj_rest_task/S01/task_S01_2.txt",
+      "cohort_3subj_rest_task/S02/rest_S02_1.txt",
+      "cohort_3subj_rest_task/S02/task_S02_1.txt",
+      "cohort_3subj_rest_task/S02/rest_S02_2.txt",
+      "cohort_3subj_rest_task/S02/task_S02_2.txt",
+      "cohort_3subj_rest_task/S03/rest_S03_1.txt",
+      "cohort_3subj_rest_task/S03/task_S03_1.txt",
+      "cohort_3subj_rest_task/S03/rest_S03_2.txt",
+      "cohort_3subj_rest_task/S03/task_S03_2.txt"
+    ]
+  }
+]
