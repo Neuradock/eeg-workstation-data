@@ -84,5 +84,35 @@
       "cohort_3subj_rest_task/S03/rest_S03_2.txt",
       "cohort_3subj_rest_task/S03/task_S03_2.txt"
     ]
+  },
+  {
+    "cohort": "cohort_longitudinal_state",
+    "subjects": ["unknown"],
+    "sessions": [1, 2, 3],
+    "label_policy": "Automatic state markers are candidate spectral events, not verified awake, meditation, drowsiness, sleep, or clinical labels.",
+    "files": [
+      {
+        "file": "longitudinal_state/raw_txt/long_01_sample14_20260114223404_1h57s_NeuraDock99170.txt",
+        "parsed_duration_min": 60.96,
+        "candidate_pattern": "progressive slow-Alpha shift; sleep-onset-like candidate from 45 min"
+      },
+      {
+        "file": "longitudinal_state/raw_txt/long_02_sample15_20260115224803_53m44s_NeuraDock99170.txt",
+        "parsed_duration_min": 53.74,
+        "candidate_pattern": "fluctuating slow-Alpha episodes; mixed-state candidate from 26 min"
+      },
+      {
+        "file": "longitudinal_state/raw_txt/long_03_0125_20260125232531_46m36s_NeuraDock99170.txt",
+        "parsed_duration_min": 26.42,
+        "candidate_pattern": "no sustained slow-Alpha shift detected; indeterminate"
+      }
+    ],
+    "analysis_files": [
+      "longitudinal_state/README.md",
+      "longitudinal_state/analysis/STATE_DYNAMICS_REPORT.md",
+      "longitudinal_state/analysis/automatic_state_markers.csv",
+      "longitudinal_state/analysis/one_minute_spectral_features.csv",
+      "longitudinal_state/analysis/state_pattern_summary.csv"
+    ]
   }
 ]

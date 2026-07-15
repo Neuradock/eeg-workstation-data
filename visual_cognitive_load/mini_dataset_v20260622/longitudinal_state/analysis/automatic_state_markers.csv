@@ -1,0 +1,7 @@
+recording_id,time_min,marker_type,auto_rule,interpretation,confidence
+long_01_sample14,26.0,relative_alpha_peak,Maximum 3-valid-window median posterior alpha relative power.,High-alpha quiet-rest or eyes-closed candidate; not a meditation label.,low
+long_01_sample14,45.0,sustained_slow_alpha_shift,"At least 3 of 4 valid one-minute windows: alpha <=90% baseline, theta/alpha >=125%, delta/alpha >=125%.",Sustained reduced alpha with elevated theta/alpha and delta/alpha persists late in the recording.,moderate
+long_02_sample15,16.0,relative_alpha_peak,Maximum 3-valid-window median posterior alpha relative power.,High-alpha quiet-rest or eyes-closed candidate; not a meditation label.,low
+long_02_sample15,26.0,sustained_slow_alpha_shift,"At least 3 of 4 valid one-minute windows: alpha <=90% baseline, theta/alpha >=125%, delta/alpha >=125%.","A sustained slow-alpha episode occurs, but later windows return toward the baseline pattern.",moderate
+long_03_0125,10.0,relative_alpha_peak,Maximum 3-valid-window median posterior alpha relative power.,High-alpha quiet-rest or eyes-closed candidate; not a meditation label.,low
+long_03_0125,15.0,brief_slow_alpha_maximum,Maximum one-minute slow/alpha ratio when no sustained slow-alpha rule is met.,"Brief spectral slowing only; insufficient to label sleep, wakefulness, or meditation.",low

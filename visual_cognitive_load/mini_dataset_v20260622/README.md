@@ -1,17 +1,24 @@
-# Mini Dataset For Visual Cognitive Load
+# Mini Dataset: Visual Cognitive Load With Longitudinal Robustness
 
 Dataset version: `20260622`
 
-This folder contains a small public tutorial dataset for the NeuraDock Visual
-Cognitive Load Agent. It is designed to let users experience:
+This folder is the downloadable raw-data bundle for the NeuraDock Visual
+Cognitive Load Dataset. It supports one complete workflow:
 
-- EEG preprocessing and quality-control gating
-- Alpha Dynamics on eyes/rest/task recordings
-- Within-subject Rest/Task visual cognitive-load comparison
-- Quality-risk interpretation for mixed-eye-state or noisier files
+- calibrate posterior Alpha from a person's Rest recording
+- compare short visual-task recordings against that individual baseline
+- inspect mixed-eye-state and task-variant caveats
+- test a visual-load pipeline against long-duration state and quality confounds
 
-No generated analysis results are included. Users should run the Agent locally
-to reproduce figures and reports.
+The short Rest/Task cohorts are raw tutorial recordings. The
+`longitudinal_state/` cohort includes quality-aware derived CSVs and figures so
+that automatic candidate-state markers can be inspected transparently. Those
+markers are not cognitive-load labels and must not be used as supervision.
+
+Use the short files to build a within-subject Alpha feature. Use the long files
+to test whether that feature remains trustworthy during eyes-closed rest,
+meditation-like quiet state, drowsiness, near-sleep transition, and signal
+quality changes.
 
 ## Folder Structure
 
@@ -30,6 +37,9 @@ mini_dataset_v20260622/
     |-- S01/
     |-- S02/
     `-- S03/
+`-- longitudinal_state/
+    |-- raw_txt/
+    `-- analysis/
 ```
 
 ## Channel And Format
@@ -51,7 +61,34 @@ checksums_sha256.txt
 
 ## Recommended Usage
 
-Use each subject's own rest/baseline file. Do not compare across subjects.
+Use each subject's own Rest recording as the baseline. Do not compare absolute
+Alpha or cognitive-load scores across subjects. Before interpreting a task
+effect, inspect data quality and the long-recording confound examples.
+
+Recommended first pass:
+
+1. Parse `cohort_3subj_rest_task/S01/rest_S01_1.txt` and
+   `task_S01_1.txt`.
+2. Run the official preprocessing and quality gate.
+3. Compute posterior 8-13 Hz Alpha from usable posterior channels.
+4. Reproduce the homepage Rest/Task Alpha decrease.
+5. Inspect `longitudinal_state/` before turning the feature into a continuous
+   cognitive-load score.
+
+### Longitudinal State Cohort
+
+`longitudinal_state/` contains three complete 26-61 minute raw recordings for
+time-resolved Alpha and state-transition engineering. They are not labelled
+sleep, awake, or meditation recordings. The included automatic markers identify
+candidate changes in Alpha and slow-wave balance only; see
+`longitudinal_state/README.md` and
+`longitudinal_state/analysis/STATE_DYNAMICS_REPORT.md`.
+
+The current automatic patterns are:
+
+- `long_01_sample14`: progressive slow-Alpha shift; sleep-onset-like candidate.
+- `long_02_sample15`: fluctuating slow-Alpha episodes; mixed-state candidate.
+- `long_03_0125`: no sustained slow-Alpha shift detected; indeterminate.
 
 ### Cohort 1: Task Variants
 

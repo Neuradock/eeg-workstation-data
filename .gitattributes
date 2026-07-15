@@ -3,3 +3,4 @@
 *.txt text eol=lf
 *.csv text eol=lf
 *.json text eol=lf
+visual_cognitive_load/figures/*.png -text

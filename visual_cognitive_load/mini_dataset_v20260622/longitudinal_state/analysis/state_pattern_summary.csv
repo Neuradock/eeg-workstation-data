@@ -1,0 +1,4 @@
+recording_id,raw_duration_min,sample_retention_after_qc,valid_one_minute_windows,usable_posterior_channels,early_alpha_relative_power,late_alpha_relative_power,late_vs_early_alpha_pct,late_vs_early_theta_alpha_pct,late_vs_early_delta_alpha_pct,candidate_state_pattern
+long_01_sample14,60.96,0.53,37,PO3|PO4,0.05821604588650468,0.040053243399928204,-31.19896277735151,96.93494195457146,41.90278844238554,progressive slow-alpha shift; sleep-onset-like candidate
+long_02_sample15,53.74,0.578,36,PO3|PO4|O1,0.05864978474208543,0.043352498295139395,-26.082425560837805,17.488302407383173,53.54415653701997,fluctuating slow-alpha episodes; mixed-state candidate
+long_03_0125,26.42,0.599,21,PO4,0.03399611651548953,0.026841075654323587,-21.046641777174514,6.334246265893654,36.796927572411505,no sustained slow-alpha shift detected; indeterminate
